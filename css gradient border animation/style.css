@@ -57,7 +57,13 @@
 
         transform-origin: center;
         animation: 3s infinite linear animate;
+        visibility: hidden;
     }
+
+     .wrapper:hover::before {
+        visibility: visible;
+    }
+
 
 
 @keyframes animate {
